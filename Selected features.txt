@@ -1,0 +1,37 @@
+#   Column                    Non-Null Count   Dtype  
+---  ------                    --------------   -----  
+===Others variables
+ 0   ID                        100000 non-null  object 
+ 1   Customer_ID               100000 non-null  object 
+ 2   Month                     100000 non-null  object 
+ 3   Name                      90017 non-null   object 
+ 5   SSN                       100000 non-null  object
+ 13  Type_of_Loan              88592 non-null   object 
+ 21  Credit_History_Age        100000 non-null  object
+ 25  Payment_Behaviour         100000 non-null  object
+
+===Categorical variables
+ 6   Occupation                100000 non-null  object
+ 18  Credit_Mix                100000 non-null  object 
+ 22  Payment_of_Min_Amount     100000 non-null  object 
+
+===Numeric variables
+ 4   Age                       100000 non-null  int32 
+ 7   Annual_Income             100000 non-null  float64
+ 8   Monthly_Inhand_Salary     100000 non-null  float64
+ 9   Num_Bank_Accounts         100000 non-null  int64  
+ 10  Num_Credit_Card           100000 non-null  int64  
+ 11  Interest_Rate             100000 non-null  int64  
+ 12  Num_of_Loan               100000 non-null  float64
+ 14  Delay_from_due_date       100000 non-null  int64  
+ 15  Num_of_Delayed_Payment    100000 non-null  float64
+ 16  Changed_Credit_Limit      100000 non-null  float64
+ 17  Num_Credit_Inquiries      100000 non-null  float64
+ 19  Outstanding_Debt          100000 non-null  float64
+ 20  Credit_Utilization_Ratio  100000 non-null  float64
+ 23  Total_EMI_per_month       100000 non-null  float64
+ 24  Amount_invested_monthly   95521 non-null   float64
+ 26  Monthly_Balance           98800 non-null   float64
+
+===Target
+ 27  Credit_Score              100000 non-null  object 
