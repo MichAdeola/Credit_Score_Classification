@@ -12,3 +12,5 @@ Each 28 columns contain the following information:
 
 ## Methodology and tools used
 ![image](https://github.com/MichAdeola/Credit_Score_Classification/assets/105505715/656f5668-396c-4425-8070-625f2d579fed)
+
+## Results
