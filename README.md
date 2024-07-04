@@ -2,7 +2,7 @@
 Banks have a huge quantity of information on their customers, which can enable them to predict their lending behavior. 
 
 # Goal
-My aim is to create an intelligent system for classifying people according to their creditworthiness, thereby reducing manual labor. 
+For my Machine Learning Engineer|Block 6 certificate, after my jedha bootcamp session, my goal is to create an intelligent system to classify people according to their creditworthiness, thereby reducing manual work.
 
 # Data sources
 The data source can be found on kaggle website with this link : [https://www.kaggle.com/datasets/shivamb/netflix-shows/data](https://www.kaggle.com/datasets/parisrohan/credit-score-classification). 
