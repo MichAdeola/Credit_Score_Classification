@@ -25,7 +25,7 @@ Based on the results obtained throughout the data analysis process, we can make 
     The comparison between the 8 features of the RFE method and those initially chosen with the correlation matrix, do not all match. Only 4 are similar. 
   - So I have used Dataiku's feature importance graph to highlight the most important variables in relation to the target. 
 
-Considering the 3 features selection methods, only 7 features are common. Therefore, for my credit scoring prediction, I have used 7 relevant features, which are :
+  Considering the 3 features selection methods, only 7 features are common. Therefore, for my credit scoring prediction, I have used 7 relevant features, which are :
 
   ![image](https://github.com/MichAdeola/Credit_Score_Classification/assets/105505715/9ff9692d-e1a7-4251-9ec7-7845243f913d)
 
