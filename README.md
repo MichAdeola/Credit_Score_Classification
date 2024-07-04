@@ -18,7 +18,7 @@ Each 28 columns contain the following information:
 # Results
 Based on the results obtained throughout the data analysis process, we can make the following observations:
 
-- There was a lot of missing data. I therefore performed an initial clean-up on xlsx to upgrade the data relating to the same "customer_id", before integrating it into python for others cleaning. 
+- There was a lot of missing data. I therefore performed an initial clean-up on xlsx(excel) to upgrade the data relating to the same "customer_id", before integrating it into python for others cleaning. 
 - After pre-processing, I used 3 distinct methods to select the features for predicting the target "credit score" : 
   - Firstly, I have used the correlation matrix method, for selecting the variables most correlated with the target.  I considered moderate (>|0.3|) and strong (>|0.5|) correlation thresholds with the encoded target variable. The result was 8 variables.
   - Then, to confirm my choice of features, I have used the Recursive Feature Elimination (RFE) method to bring the 8 best features too.
