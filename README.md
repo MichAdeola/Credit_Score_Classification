@@ -26,7 +26,7 @@ Based on the results obtained throughout the data analysis process, we can make 
 
 ![image](https://github.com/MichAdeola/Credit_Score_Classification/assets/105505715/9ff9692d-e1a7-4251-9ec7-7845243f913d)
 
-- I then heva trained the model using various methods:  logistic regression and random forest with scikit learn in python, and XGBoost, and SVM (Support Vector Machine) in dataiku. But the method with the best accuracy was the random forest with 0.77065. So I deployed the model using this method.
+- I then have trained the model using various methods:  logistic regression and random forest with scikit learn in python, and XGBoost, and SVM (Support Vector Machine) in dataiku. But the method with the best accuracy was the random forest with 0.77065. So I deployed the model using this method.
 - And I made my prediction on the second dataset, cleaned in the same conditions as the first.
 
 # Next step
