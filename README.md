@@ -22,9 +22,9 @@ Based on the results obtained throughout the data analysis process, we can make 
 - After pre-processing, I used 3 distinct methods to select the features for predicting the target "credit score" : 
   - Firstly, I have used the correlation matrix method, for selecting the variables most correlated with the target.  I considered moderate (>|0.3|) and strong (>|0.5|) correlation thresholds with the encoded target variable. The result was 8 variables.
   - Then, to confirm my choice of features, I have used the Recursive Feature Elimination (RFE) method to bring the 8 best features too.
-  Nb: The comparison between the 8 features of the RFE method and those initially chosen with the correlation matrix, do not all match. Only 4 are similar. 
+    The comparison between the 8 features of the RFE method and those initially chosen with the correlation matrix, do not all match. Only 4 are similar. 
   - So I have used Dataiku's feature importance graph to highlight the most important variables in relation to the target. 
-  Nb: Considering the 3 features selection methods, only 7 features are common. Therefore, for my credit scoring prediction, I have used 7 relevant features, which are :
+    Considering the 3 features selection methods, only 7 features are common. Therefore, for my credit scoring prediction, I have used 7 relevant features, which are :
 
   ![image](https://github.com/MichAdeola/Credit_Score_Classification/assets/105505715/9ff9692d-e1a7-4251-9ec7-7845243f913d)
 
