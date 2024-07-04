@@ -6,7 +6,7 @@ My goal is to create an intelligent system to classify people according to their
 
 # Data sources
 The data source can be found on kaggle website with this link : [https://www.kaggle.com/datasets/shivamb/netflix-shows/data](https://www.kaggle.com/datasets/parisrohan/credit-score-classification). 
-It consists in two csv files. One with previous cretit score column,That I have used for the training of my model. And a second one without credit-score column, which I have used as exemple for real prédiction.
+It consists in two csv files. One with previous cretit score column, that I have used for the training of my model. And a second one without credit-score column, which I have used as exemple for real prédiction.
 Each 28 columns contain the following information: 
 
 ![image](https://github.com/MichAdeola/Credit_Score_Classification/assets/105505715/f80f10bb-adcb-4ce8-a0c3-bff710d99450)
@@ -29,7 +29,7 @@ Considering the 3 features selection methods, only 7 features are common. Theref
 
   ![image](https://github.com/MichAdeola/Credit_Score_Classification/assets/105505715/9ff9692d-e1a7-4251-9ec7-7845243f913d)
 
-- I then have trained the model using various methods:  logistic regression and random forest with scikit learn in python, and XGBoost, and SVM (Support Vector Machine) in dataiku. But the method with the best accuracy was the random forest with 0.77065. So I deployed the model using this method.
+- I then have trained the model using various methods:  logistic regression and random forest with scikit learn in python, and XGBoost, and SVM (Support Vector Machine) in dataiku. But the method with the best accuracy was the random forest (0.77065). So I deployed the model using this method.
 - And I made my prediction on the second dataset, cleaned in the same conditions as the first.
 
 # Next step
