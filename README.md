@@ -1,21 +1,21 @@
-# Credit_Score_Classification
+# 🎓 Bloc 6 - Concepteur Développeur en Science des données
 Banks have a huge quantity of information on their customers, which can enable them to predict their lending behavior. 
 
-# Goal
+## Goal
 My goal is to create an intelligent system to classify people according to their creditworthiness, thereby reducing manual work.
 
-# Data sources
+## Data sources
 The data source can be found on kaggle website with this link : [https://www.kaggle.com/datasets/shivamb/netflix-shows/data](https://www.kaggle.com/datasets/parisrohan/credit-score-classification). 
 It consists in two csv files. One with previous cretit score column, that I have used for the training of my model. And a second one without credit-score column, which I have used as exemple for real prédiction.
 Each 28 columns contain the following information: 
 
 ![image](https://github.com/MichAdeola/Credit_Score_Classification/assets/105505715/f80f10bb-adcb-4ce8-a0c3-bff710d99450)
 
-# Methodology and tools used
+## Methodology and tools used
 
 ![image](https://github.com/MichAdeola/Credit_Score_Classification/assets/105505715/656f5668-396c-4425-8070-625f2d579fed)
 
-# Results
+## Results
 Based on the results obtained throughout the data analysis process, we can make the following observations:
 
 - There was a lot of missing data. I therefore performed an initial cleanup in excel to update the data relating to the same "customer_id", before integrating the dataset in python for further cleanup of misleading values, in order to have consistent data.
@@ -33,5 +33,5 @@ Based on the results obtained throughout the data analysis process, we can make 
 - I then have trained the model using various methods:  logistic regression and random forest with scikit learn in python, and XGBoost, and SVM (Support Vector Machine) in dataiku. But the method with the best accuracy was the random forest (0.77065). So I deployed the model using this method.
 - And I made my prediction on the second dataset, cleaned in the same conditions as the first.
 
-# Next step
+## Next step
 - Optimize the hyperparameters of the deployed model, to further improve the model performance. 
