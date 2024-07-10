@@ -1,4 +1,4 @@
-# 🎓 Bloc 6 - Concepteur Développeur en Science des données
+# Credit Score
 Banks have a huge quantity of information on their customers, which can enable them to predict their lending behavior. 
 
 ## Goal
